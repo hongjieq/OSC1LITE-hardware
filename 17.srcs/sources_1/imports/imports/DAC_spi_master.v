@@ -33,6 +33,8 @@ module spi_controller(
 
 wire [7:0] 	address_byte;
 wire [23:0] full_command;
+reg	 [23:0] full_command_one_period;
+wire [23:0] full_command_one_period_next;
 
 reg  [4:0] 	counter;				// 0 - 23 to clock in the command. 24 - 29 to relax latch HIGH. t5 min = 40ns on Page 9.
 wire [4:0]	shift_counter_helper;	// Shifting bit from full_command to din
@@ -43,7 +45,8 @@ assign shift_counter_helper = ~counter + 5'd24;  // (0 -> 23, 1 -> 22, etc.)
 
 assign clear = clear_request; 								// assign OK clr DAC pin control to clr DAC register. 
 //assign sclk = clk;											// assign spi input clk equal to Opal Kelly ti_clk
-assign sclk = (counter >= 5'd24) ? 0 :clk;
+//assign sclk = (counter >= 5'd24) ? 0 :clk;
+assign sclk = ((counter >= 5'd24) | (full_command_one_period == full_command) )? 0 :clk;
 assign address_byte = (mode == 3'b001) ? 8'b00000001 		// wirte (See Manual Page 32, 33)
 		    : (mode == 3'b010) ? 8'b00000010                // read
 		    : (mode == 3'b011) ? 8'b01010101                // write control
@@ -100,6 +103,11 @@ always @ (*) begin
 	end else begin
 		din = (full_command >> shift_counter_helper) & 1'b1;
 	end
+end
+	
+assign full_command_one_period_next = (counter == 5'b0) ? full_command : full_command_one_period;
+always @ (posedge clk) begin
+	full_command_one_period <= full_command_one_period_next;
 end
 		
 endmodule
