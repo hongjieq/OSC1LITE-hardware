@@ -1,0 +1,1 @@
+-wto "e01f3dc1d4d1413e83d79e6bb536698a" --incr --debug "typical" --relax --mt "2" -L "blk_mem_gen_v8_3_6" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "OSC1_LITE_Control_behav" "xil_defaultlib.OSC1_LITE_Control" "xil_defaultlib.glbl" -log "elaborate.log" 

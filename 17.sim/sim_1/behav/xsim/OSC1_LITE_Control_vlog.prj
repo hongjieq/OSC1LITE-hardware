@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog blk_mem_gen_v8_3_6  \
+"../../../../17.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_3.v" \
+
+verilog xil_defaultlib  \
+"../../../../17.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../17.srcs/sources_1/imports/imports/DAC_spi_master.v" \
+"../../../../17.srcs/sources_1/imports/imports/amp_pipe.v" \
+"../../../../17.srcs/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okCoreHarness.v" \
+"../../../../17.srcs/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okLibrary.v" \
+"../../../../17.srcs/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okPipeIn.v" \
+"../../../../17.srcs/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okPipeOut.v" \
+"../../../../17.srcs/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okWireIn.v" \
+"../../../../17.srcs/sources_1/new/read_input.v" \
+"../../../../17.srcs/sources_1/new/trigger_in.v" \
+"../../../../17.srcs/sources_1/imports/imports/OSC1_LITE_one_channel_control.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jul 11 16:50:29 2019
+# Process ID: 12488
+# Current directory: D:/Hongjie/hongjie/V1/OSC1LITE-master_new_/OSC1LITE-master_newnew/OSC1LITE-master/project_LITE/project_LITE/17.runs/synth_1
+# Command line: vivado.exe -log OSC1_LITE_Control.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source OSC1_LITE_Control.tcl
+# Log file: D:/Hongjie/hongjie/V1/OSC1LITE-master_new_/OSC1LITE-master_newnew/OSC1LITE-master/project_LITE/project_LITE/17.runs/synth_1/OSC1_LITE_Control.vds
+# Journal file: D:/Hongjie/hongjie/V1/OSC1LITE-master_new_/OSC1LITE-master_newnew/OSC1LITE-master/project_LITE/project_LITE/17.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source OSC1_LITE_Control.tcl -notrace

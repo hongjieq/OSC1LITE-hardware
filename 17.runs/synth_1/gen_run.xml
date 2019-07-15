@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a15tftg256-1" LaunchTime="1562878225">
+  <File Type="PA-TCL" Name="OSC1_LITE_Control.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="OSC1_LITE_Control_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="OSC1_LITE_Control_reports.tcl"/>
+  <File Type="RDS-RDS" Name="OSC1_LITE_Control.vds"/>
+  <File Type="RDS-UTIL" Name="OSC1_LITE_Control_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="OSC1_LITE_Control_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="OSC1_LITE_Control.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="OSC1_LITE_Control_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="OSC1_LITE_Control_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/DAC_spi_master.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/imports/DAC_spi_master.v"/>
+        <Attr Name="ImportTime" Val="1545320669"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/amp_pipe.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okCoreHarness.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okCoreHarness.v"/>
+        <Attr Name="ImportTime" Val="1525201188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okLibrary.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okLibrary.v"/>
+        <Attr Name="ImportTime" Val="1525201188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okPipeIn.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okPipeIn.v"/>
+        <Attr Name="ImportTime" Val="1525201188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okPipeOut.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okPipeOut.v"/>
+        <Attr Name="ImportTime" Val="1525201188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okWireIn.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okWireIn.v"/>
+        <Attr Name="ImportTime" Val="1525201188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/read_input.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/trigger_in.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/OSC1_LITE_one_channel_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/imports/OSC1_LITE_one_channel_control.v"/>
+        <Attr Name="ImportTime" Val="1545320846"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okBTPipeIn.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okBTPipeIn.v"/>
+        <Attr Name="ImportTime" Val="1525201188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okBTPipeOut.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okBTPipeOut.v"/>
+        <Attr Name="ImportTime" Val="1525201188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okTriggerIn.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okTriggerIn.v"/>
+        <Attr Name="ImportTime" Val="1525201188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okTriggerOut.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okTriggerOut.v"/>
+        <Attr Name="ImportTime" Val="1525201188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okWireOut.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okWireOut.v"/>
+        <Attr Name="ImportTime" Val="1525201188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okLibrary.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Program Files/Opal Kelly/FrontPanelUSB/FrontPanelHDL/XEM7001-A15/okLibrary.vhd"/>
+        <Attr Name="ImportTime" Val="1525201188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="OSC1_LITE_Control"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/xem7001.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Haojie Ye/Desktop/xem7001.xdc"/>
+        <Attr Name="ImportTime" Val="1539392012"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

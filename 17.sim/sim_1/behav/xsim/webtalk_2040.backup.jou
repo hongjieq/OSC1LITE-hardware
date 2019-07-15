@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jul 11 16:27:03 2019
+# Process ID: 2040
+# Current directory: D:/Hongjie/hongjie/V1/OSC1LITE-master_new_/OSC1LITE-master_newnew/OSC1LITE-master/project_LITE/project_LITE/17.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Hongjie/hongjie/V1/OSC1LITE-master_new_/OSC1LITE-master_newnew/OSC1LITE-master/project_LITE/project_LITE/17.sim/sim_1/behav/xsim/xsim.dir/OSC1_LITE_Control_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Hongjie/hongjie/V1/OSC1LITE-master_new_/OSC1LITE-master_newnew/OSC1LITE-master/project_LITE/project_LITE/17.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Hongjie/hongjie/V1/OSC1LITE-master_new_/OSC1LITE-master_newnew/OSC1LITE-master/project_LITE/project_LITE/17.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Hongjie/hongjie/V1/OSC1LITE-master_new_/OSC1LITE-master_newnew/OSC1LITE-master/project_LITE/project_LITE/17.sim/sim_1/behav/xsim/xsim.dir/OSC1_LITE_Control_behav/webtalk/xsim_webtalk.tcl -notrace
